@@ -679,7 +679,7 @@ c.ldflags := $(c.ldflags) $(ldflags) $(LDFLAGS)
 c.ldlibs := $(c.ldlibs) $(ldlibs)
 
 # accumulated flags for C++ compiler / linker
-cxx.flags := $(cpp.flags) $(cxx.flags) $(cflags) $(CFLAGS)
+cxx.flags := $(cpp.flags) $(cxx.flags) $(cflags) $(CXXFLAGS) $(CFLAGS)
 cxx.ldflags := $(cxx.ldflags) $(ldflags) $(LDFLAGS)
 cxx.ldlibs := $(cxx.ldlibs) $(ldlibs)
 
